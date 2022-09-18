@@ -15,5 +15,5 @@ bool isPrime(int num)
             return false;
     }
 
-    return true;
+    return num <= 1 ? false : true;
 }
